@@ -1,10 +1,12 @@
 import React from "react";
-import MapConcejales from "../../components/mapConcejales";
+import MapCityRosario from "../../components/mapCityRosario";
+import MapProvince from "../../components/mapProvince";
 
 const Home: React.FC = () => {
   return (
     <section>
-      <MapConcejales />
+      <MapCityRosario />
+      <MapProvince />
     </section>
   );
 };

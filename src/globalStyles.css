@@ -1,12 +1,16 @@
 body {
   margin: 0;
-  height: 100vh;
-  overflow: hidden;
 }
 
 .App {
   display: flex;
   flex-direction: column;
-  overflow: scroll;
-  height: 100vh;
+  margin: 0;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
 }

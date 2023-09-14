@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import "./styles.css";
 
-const MapConcejales: React.FC = () => {
+const MapProvince: React.FC = () => {
   useEffect(() => {
-    const iframeEle = document.getElementById("map-iframe");
-    const loadingEle = document.getElementById("loading");
+    const iframeEle = document.getElementById("map-iframe-province");
+    const loadingEle = document.getElementById("loading-province");
 
     (iframeEle as HTMLElement).addEventListener("load", function () {
       // Hide the loading indicator
@@ -17,12 +17,12 @@ const MapConcejales: React.FC = () => {
 
   return (
     <>
-      <div id="loading">
+      <div id="loading-province">
         <span className="loader"></span>
       </div>
       <iframe
-        id="map-iframe"
-        src="https://flo.uri.sh/visualisation/15022701/embed"
+        id="map-iframe-province"
+        src="https://flo.uri.sh/visualisation/15025882/embed"
         title="Interactive or visual content"
         className="flourish-embed-iframe map"
         frameBorder="0"
@@ -33,4 +33,4 @@ const MapConcejales: React.FC = () => {
   );
 };
 
-export default MapConcejales;
+export default MapProvince;

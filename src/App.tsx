@@ -7,9 +7,11 @@ import "./globalStyles.css";
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Header />
-      <Home />
-      <Footer />
+      <div className="layout">
+        <Header />
+        <Home />
+        <Footer />
+      </div>
     </div>
   );
 };
