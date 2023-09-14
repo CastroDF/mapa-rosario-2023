@@ -1,10 +1,10 @@
 import React from "react";
-import Map from "../../components/map";
+import MapConcejales from "../../components/mapConcejales";
 
 const Home: React.FC = () => {
   return (
     <section>
-      <Map />
+      <MapConcejales />
     </section>
   );
 };
