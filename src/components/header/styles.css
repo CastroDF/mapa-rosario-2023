@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  padding: 0 15px;
+  background-color: #dad6ea;
+}
+
+.vll-logo {
+  width: 90px;
+}
+
+.insta-logo-container {
+  margin-left: auto;
+}
+
+.insta-logo {
+  width: 35px;
+}
